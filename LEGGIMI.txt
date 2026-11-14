@@ -1,0 +1,12 @@
+COME OTTENERE L'APK (senza Android Studio)
+1. Crea un account gratuito su github.com
+2. Nuovo repository (privato va bene) -> "uploading an existing file"
+3. Estrai questo zip e trascina TUTTO il contenuto (cartella .github compresa) nel repository -> Commit
+4. Scheda "Actions" -> attendi il "Build APK" verde (3-5 min)
+5. Apri l'esecuzione -> sezione Artifacts -> scarica WatchRec-apk -> estrai -> app-debug.apk
+6. Installalo sul telefono (consenti "origini sconosciute")
+
+USO
+- Apri WatchRec, concedi microfono e notifiche, premi ATTIVA SERVIZIO
+- Impostazioni Honor: batteria -> WatchRec -> "Nessuna restrizione"/avvio automatico, e blocca l'app nei recenti
+- Sull'orologio apri il lettore musicale e premi Play: parte la registrazione (vibra). Ripremi: si ferma e salva in Musica/WatchRec
